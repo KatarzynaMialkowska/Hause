@@ -1,5 +1,7 @@
 #include "Application/shader_source.h"
 #include <regex>
+#include <cstdint>
+#include <cstring>
 
 namespace {
     char *copy_string_to_char(std::string str, const std::string &suffix = "") {
